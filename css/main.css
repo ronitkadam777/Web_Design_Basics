@@ -13,8 +13,11 @@
 
 .container {
 	background-color: lightgray;
-	height: 90.8vh;
+	/* height: 90.8vh; */
+	height: 100%;
 	opacity: 0.7;
+	padding: 2rem;
+	font-family: CekerayamFont;
 }
 
 @media screen and (min-width: 768px) {
@@ -23,10 +26,11 @@
 	}
 }
 
-.large-screen-spacing {
-	padding-top: 6rem;
+@media screen and (max-width: 768px) {
+	.container {
+		margin-bottom: 2.2rem;
+	}
 }
-
 
 
 nav > div > ul.navbar-nav {
