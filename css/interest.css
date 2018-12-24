@@ -2,9 +2,10 @@
 body {
 	background-image: url("../images/Background_Full_Bloom.png");
 }
+
 img {
     width: 100%;
-    height: 35rem;
+    height: 45rem;
     border-radius: 0.7rem;
     display: block !important;
 }
