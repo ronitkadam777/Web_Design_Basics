@@ -15,8 +15,9 @@
 	<!-- CSS Files -->
 	<link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="./js/index.js"></script>
 </head>
-<body>
+<body onload="getAge()">
     <header>
         <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light d-none d-xs-none d-sm-none d-md-block d-lg-block d-xl-block">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -49,7 +50,8 @@
                       <div class="card-body">
                         <h2>Welcome!!</h2>
                         <div class="introduction-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices id erat in dapibus. Morbi blandit velit orci, non ultrices nisi dapibus vitae. Aliquam eu augue non quam iaculis maximus a a velit. Vivamus et metus nibh. Suspendisse potenti. 
+                            This is Ronit and i'm <span id="age"></span> years old from Mumbai, India.
+                            I currently work as a Software Engineer in the Bay Area. This website is the result of the Captone Project which compeletes the <a href="https://www.coursera.org/specializations/web-design">Web Design for Everybody Specialization".</a> Highly recommend this course for all!
                         </div>
                       </div>
                 </div>
